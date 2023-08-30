@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+<!-- google font  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body> 
+<h1> Temperature Converter </h1>
+<script src="script.js"></script>
+<div>
+<section>
+<form id="tempform" onsubmit="return temperatureConvert()">
+<label> Enter the temperature: </label>
+<input type="number" id="temp" required placeholder="Only numerical values!">
+<br>
+<br>
+<label> Select the input type: </label>
+<select id="deg">
+    <option value="Fahrenheit"> Fahrenheit </option>
+    <option value="Celsius"> Celsius </option>
+  </select>
+  <br>
+  <br>
+  <button id="submit" type="submit"> Submit! </button>
+  <br>
+  <br>
+</form>
+<p id="output">if its right then Converted Temperature will be displayed here! </p>
+</section>
+</div>
+</body>
+</html>

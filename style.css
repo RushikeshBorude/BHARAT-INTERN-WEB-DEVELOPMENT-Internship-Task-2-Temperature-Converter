@@ -1,0 +1,59 @@
+form , p
+{
+background-color: rgb(91, 158, 88);
+width: 100%;
+height: max-content;
+color: rgb(0, 0, 0);
+font-size: larger;
+font-weight: bold;
+padding: 20px;
+border-radius: 10px;
+font-family: 'Bree Serif', serif;
+}
+
+button
+{
+    padding: 10px;
+    background-color: rgb(104, 141, 179);
+    color: rgb(18, 12, 12);
+    size: 12px;
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input, select
+{
+    padding: 7px;
+    font-family: 'Bree Serif', serif;
+    background-color: rgb(217, 218, 219);
+    color: rgb(16, 11, 11);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+h1
+{
+    color: rgb(10, 9, 9);
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 100px;
+}
+
+body
+{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/514/964/non_2x/winter-scenery-background-free-vector.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-family: 'Bree Serif', serif;
+}
+
+div
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+}
